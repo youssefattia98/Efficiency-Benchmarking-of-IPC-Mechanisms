@@ -27,17 +27,20 @@ run with: ./prod 104857600 102400 3 4 5
 #define SEM_PATH_1 "/sem_AOS_1"
 #define SEM_PATH_2 "/sem_AOS_2"
 #define SEM_PATH_3 "/sem_AOS_3"
+int Asize, CDsize, choice =0;
 
 void Randomdata(unsigned char* data){
   FILE *Randomdatafd;
   Randomdatafd = fopen("./array","r");
 
   if ( Randomdatafd ){
-    while(fscanf(Randomdatafd, "%s", data)!=EOF);
+    int counter =0;
+    for(data[counter++]=getc(Randomdatafd);data[counter]!=EOF && counter!=Asize;data[counter++]=getc(Randomdatafd));
   }
   else{
     printf("Failed to open the file\n");
   }
+  
   fclose(Randomdatafd);
 }
 
@@ -49,7 +52,7 @@ void error(char *msg, int fd){
 }
 
 
-int Asize, CDsize, choice =0;
+
 int main(int argc, char * argv[]){
   Asize = atoi(argv[1]);
   CDsize = atoi(argv[2]);
@@ -57,6 +60,7 @@ int main(int argc, char * argv[]){
   unsigned char *A= (unsigned char*) malloc(Asize*sizeof(unsigned char)); //array of size 0 to 100 mb according to user input
   unsigned char *CD= (unsigned char*) malloc(CDsize*sizeof(unsigned char)); //array of size 0 to 10kb according to user input
   Randomdata(A); //read random data into array A
+  printf("I am the producer, will send:%ld bytes.\n",strlen(A));
 
   if(choice == 1){
     //unnamed pipes

@@ -84,7 +84,7 @@ int main(){
       //execvp ("/usr/bin/konsole", arg_list_2);
       //without consle
       char * arg_list_2[] = {"./cons",(char*)senstr1,(char*)senstr2,(char*)senstr3,(char*)senstr4,(char*)senstr5,(char*)NULL };
-      sleep(2);
+      sleep(1);
       execvp(arg_list_2[0],arg_list_2);
     }
   }

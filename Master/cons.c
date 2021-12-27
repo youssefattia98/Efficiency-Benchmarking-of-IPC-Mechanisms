@@ -52,7 +52,7 @@ int main(int argc, char * argv[]){
     for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(pfd[0], &B[i], 65536);
     }
-    printf("i recived %ld\n",strlen(B));
+    printf("I recived %ld bytes.\n",strlen(B));
   }
 
 
@@ -65,7 +65,7 @@ int main(int argc, char * argv[]){
      for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(fd, &B[i], 65536);
      }
-     printf("i recived %ld\n",strlen(B));
+     printf("I recived %ld bytes.\n",strlen(B));
      close(fd); //close fifo
      unlink("/tmp/namedpipe"); //delete pipe
 
@@ -103,7 +103,7 @@ int main(int argc, char * argv[]){
     for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(sockfd, &B[i], 65536);
      }
-    printf("i recived %ld\n",strlen(B));
+    printf("I recived %ld bytes.\n",strlen(B));
     if (n < 0){
       error("ERROR reading from socket",sockfd);
     }
@@ -139,7 +139,7 @@ int main(int argc, char * argv[]){
       sem_post(mutexCircBuffer);
       sem_post(sem_id1); //send signal after reading
     }
-    printf("I have colled: %ld bytes\n",strlen(B));
+    printf("I recived %ld bytes.\n",strlen(B));
 
     shm_unlink(SHMOBJ_PATH);
     sem_close(sem_id1);
