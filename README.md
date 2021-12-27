@@ -8,4 +8,5 @@ Whats need to be added:
 - commenting
 - error cheking on master, prod and cons
 - submission way (usf)
+- description (alice)
 if someone rembers extra things to be added, add it to the read me, everyone writes his/her name next to what he will be doing
