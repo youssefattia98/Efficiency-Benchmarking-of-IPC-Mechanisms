@@ -1,7 +1,7 @@
 # Advanced-Robot-Programming---Assignment-2
 Whats need to be added:  
 - time thing
-- better printf
+- better printf(alice-- check how did alex do it in his code the display function is really intreasting)
 - reading the random data should be stopped according to the size of array (to be changed in prod)
 - do we need kosnle?
 - log file
