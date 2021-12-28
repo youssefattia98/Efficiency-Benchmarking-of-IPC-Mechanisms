@@ -91,6 +91,7 @@ int main(int argc, char * argv[]){
     char * namedpipe = "/tmp/namedpipe"; 
     mkfifo(namedpipe, 0666); //create namepipe
     int fd = open(namedpipe, O_WRONLY); //open fifo as write only
+    writetime();
     write(fd, A, strlen(A)); //write in fifo
   }
 
@@ -124,7 +125,7 @@ int main(int argc, char * argv[]){
     if (n < 0){
       error("ERROR reading from socket",newsockfd);
     }
-    
+    writetime();
     n = write(newsockfd,A,strlen(A));
     if (n < 0){
       error("ERROR writing to socket",newsockfd);

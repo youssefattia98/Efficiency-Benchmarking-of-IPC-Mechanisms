@@ -103,6 +103,7 @@ int main(int argc, char * argv[]){
      for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(fd, &B[i], 65536);
      }
+     writetime();
      printf("I recived %ld bytes.\n",strlen(B));
      close(fd); //close fifo
      unlink("/tmp/namedpipe"); //delete pipe
@@ -141,6 +142,7 @@ int main(int argc, char * argv[]){
     for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(sockfd, &B[i], 65536);
      }
+    writetime();
     printf("I recived %ld bytes.\n",strlen(B));
     if (n < 0){
       error("ERROR reading from socket",sockfd);
@@ -193,7 +195,7 @@ int main(int argc, char * argv[]){
     printf("Fatal error in choice\n");
     exit(1);
   }
-  double speeds = Bsize/(timediff()/1000000);
-  printf("The speed is: %f bytes/sec\n",speeds);
+  double speeds = (Bsize/(timediff()/1000000)/1048576);
+  printf("The speed is: %0.2f Mb/sec\n",speeds);
   return(0);
 }
