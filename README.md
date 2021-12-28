@@ -1,4 +1,5 @@
 # Advanced-Robot-Programming---Assignment-2
+If someone rembers extra things to be added, add it to the read me, everyone writes his/her name next to what he will be doing
 Whats need to be added:  
 
 - better printf(alice-- check how did alex do it in his code the display function is really intreasting)
@@ -7,7 +8,7 @@ Whats need to be added:
 - error cheking on master, prod and cons
 - submission way (usf)
 - description (alice) 
-if someone rembers extra things to be added, add it to the read me, everyone writes his/her name next to what he will be doing
+
 
 
 DONE:
