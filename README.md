@@ -14,4 +14,4 @@ Whats need to be added:
 DONE:
 -- time thing (done)
 - do we need kosnle? (NO)
-- - reading the random data should be stopped according to the size of array (to be changed in prod) (done)
+- reading the random data should be stopped according to the size of array (to be changed in prod) (done)
