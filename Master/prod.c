@@ -29,7 +29,18 @@ run with: ./prod 104857600 102400 3 4 5
 #define SEM_PATH_3 "/sem_AOS_3"
 int Asize, CDsize, choice =0;
 
-
+void writeinlog(char *str){
+  /*
+  Function to write in log file, how to use it:
+  writeinlog("write ur comment here");
+  or
+  writeinlog("%s\n", stingtobewritten);
+  */
+  FILE *writeinlog;
+  writeinlog = fopen("./logfile","a");
+  fprintf(writeinlog, "%s",str);//write to file
+  fclose(writeinlog);//close file
+}
 void writetime(){
 
   FILE *wrtietimefd;
