@@ -21,6 +21,8 @@ compile with: gcc Master.c -o master -lm
 #include <sys/stat.h> 
 #include <ctype.h>
 #include <math.h>
+
+
 int main(){
   char ABsizestr[5];
   char CBsizestr[5];

@@ -21,11 +21,48 @@ run with: ./cons 104857600 102400 3 4 5
 #include <fcntl.h> 
 #include <sys/stat.h> 
 #include <ctype.h>
+#include <sys/time.h> 
 
 #define SHMOBJ_PATH "/shm_AOS"
 #define SEM_PATH_1 "/sem_AOS_1"
 #define SEM_PATH_2 "/sem_AOS_2"
 #define SEM_PATH_3 "/sem_AOS_3"
+
+int Bsize, CDsize, choice =0;
+
+double timediff(){
+
+  FILE *readtimefd;
+  readtimefd= fopen("./t0","r+");//open and clear file
+  char senstr1[50];
+  while(fscanf(readtimefd, "%s", senstr1)!=EOF);
+  double t0 = atof(senstr1);
+
+  fclose(readtimefd);
+
+  FILE *readtimefd2;
+  readtimefd2= fopen("./t1","r+");//open and clear file
+  char senstr2[50];
+  while(fscanf(readtimefd2, "%s", senstr2)!=EOF);
+  double t1 = atof(senstr2);
+  fclose(readtimefd2);
+
+  return t1-t0;
+}
+
+void writetime(){
+
+  FILE *wrtietimefd;
+  wrtietimefd = fopen("./t1","w");//open and clear file
+
+  struct timeval current_time;
+  gettimeofday(&current_time, NULL);
+  double t1 = ((double)(1000000*(current_time.tv_sec)))+current_time.tv_usec;
+  
+
+  fprintf(wrtietimefd, "%f",t1);//write to file
+  fclose(wrtietimefd);//close file
+}
 
 void error(char *msg, int fd){
     perror(msg);
@@ -35,7 +72,7 @@ void error(char *msg, int fd){
 }
 
 
-int Bsize, CDsize, choice =0;
+
 int main(int argc, char * argv[]){
   Bsize = atoi(argv[1]);
   CDsize = atoi(argv[2]);
@@ -52,6 +89,7 @@ int main(int argc, char * argv[]){
     for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(pfd[0], &B[i], 65536);
     }
+    writetime();
     printf("I recived %ld bytes.\n",strlen(B));
   }
 
@@ -77,7 +115,7 @@ int main(int argc, char * argv[]){
     int sockfd, portno, n;
     struct sockaddr_in serv_addr;
     struct hostent *server;
-    portno = 4000;
+    portno = 8000;
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0){
       error("ERROR opening socket",sockfd);
@@ -139,6 +177,7 @@ int main(int argc, char * argv[]){
       sem_post(mutexCircBuffer);
       sem_post(sem_id1); //send signal after reading
     }
+    writetime();
     printf("I recived %ld bytes.\n",strlen(B));
 
     shm_unlink(SHMOBJ_PATH);
@@ -154,5 +193,7 @@ int main(int argc, char * argv[]){
     printf("Fatal error in choice\n");
     exit(1);
   }
+  double speeds = Bsize/(timediff()/1000000);
+  printf("The speed is: %f bytes/sec\n",speeds);
   return(0);
 }

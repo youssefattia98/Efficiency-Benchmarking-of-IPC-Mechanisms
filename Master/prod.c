@@ -20,14 +20,28 @@ run with: ./prod 104857600 102400 3 4 5
 #include <strings.h>
 #include <signal.h>
 #include <fcntl.h> 
-#include <sys/stat.h> 
 #include <ctype.h>
+#include <sys/time.h> 
 
 #define SHMOBJ_PATH "/shm_AOS"
 #define SEM_PATH_1 "/sem_AOS_1"
 #define SEM_PATH_2 "/sem_AOS_2"
 #define SEM_PATH_3 "/sem_AOS_3"
 int Asize, CDsize, choice =0;
+
+
+void writetime(){
+
+  FILE *wrtietimefd;
+  wrtietimefd = fopen("./t0","w");//open and clear file
+
+  struct timeval current_time;
+  gettimeofday(&current_time, NULL);
+  double t0 = ((double)(1000000*(current_time.tv_sec)))+current_time.tv_usec;
+
+  fprintf(wrtietimefd, "%f",t0);//write to file
+  fclose(wrtietimefd);//close file
+}
 
 void Randomdata(unsigned char* data){
   FILE *Randomdatafd;
@@ -68,6 +82,7 @@ int main(int argc, char * argv[]){
     pfd[0] = atoi(argv[4]);
     pfd[1] = atoi(argv[5]);
     close(pfd[0]); //close the read side
+    writetime();
     int bytes = write(pfd[1],A,strlen(A)); //write to pipe
   }
 
@@ -91,7 +106,7 @@ int main(int argc, char * argv[]){
       error("ERROR opening socket",sockfd);
     }
     bzero((char *) &serv_addr, sizeof(serv_addr));
-    portno = 4000;
+    portno = 8000;
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_addr.s_addr = INADDR_ANY;
     serv_addr.sin_port = htons(portno);
@@ -109,6 +124,7 @@ int main(int argc, char * argv[]){
     if (n < 0){
       error("ERROR reading from socket",newsockfd);
     }
+    
     n = write(newsockfd,A,strlen(A));
     if (n < 0){
       error("ERROR writing to socket",newsockfd);
@@ -132,7 +148,8 @@ int main(int argc, char * argv[]){
     //intlaizes these two sempahores
     sem_init(sem_id1, 1, 1); // initialized to 1
     sem_init(sem_id2, 1, 0); // initialized to 0
-  
+
+    writetime();
     CD=A;
     for(int i=0;i<Asize;i=i+shared_seg_size){
       sem_wait(sem_id1); //wait for a signal from the cons
@@ -160,5 +177,6 @@ int main(int argc, char * argv[]){
     printf("Fatal error in choice\n");
     exit(1);
   }
+  
   return(0);
 }
