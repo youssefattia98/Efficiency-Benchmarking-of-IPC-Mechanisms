@@ -94,6 +94,8 @@ int main(int argc, char * argv[]){
   unsigned char *CD= (unsigned char*) malloc(CDsize*sizeof(unsigned char)); //array of size 0 to 10kb according to user input
 
   if(choice == 1){
+    //unnamed pipes choice
+    writeinlog("consumer : The user chose Unnamed pipes choice");
     int pfd[2];
     pfd[0] = atoi(argv[4]);
     pfd[1] =atoi(argv[5]);
@@ -104,28 +106,37 @@ int main(int argc, char * argv[]){
     }
     writetime();
     printf("I recived %ld bytes.\n",strlen(B));
+    writeinlog("consumer : recived in the unnamed pipe");
+
   }
 
 
   else if (choice == 2){
     //named pipes
+    writeinlog("Consumer : The user chose named pipes choice");
     char * namedpipe = "/tmp/namedpipe";
     mkfifo(namedpipe, 0666); //create namepipe
+    writeinlog("Consumer : named pipes is created ");
     int fd = open(namedpipe,O_RDONLY); //open fifo as read only
     /*Read*/
+    writeinlog("Consumer : fifo is opened as read only");
      for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(fd, &B[i], 65536);
      }
      writetime();
      printf("I recived %ld bytes.\n",strlen(B));
+     writeinlog("Consumer : recived from the fifo");
      close(fd); //close fifo
      unlink("/tmp/namedpipe"); //delete pipe
+     writeinlog("Consumer : The named pipe is closed and deleted ");
+
 
   }
 
 
   else if (choice == 3){
-    //sockets
+    //sockets choice
+    writeinlog("Consumer : The user chose Sockets");
     int sockfd, portno, n;
     struct sockaddr_in serv_addr;
     struct hostent *server;
@@ -133,25 +144,33 @@ int main(int argc, char * argv[]){
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0){
       error("ERROR opening socket",sockfd);
+      writeinlog("Consumer : error opening sockets");
     }
+    writeinlog("Consumer : opening sockets successfully");
     char ipadd[]={'1','2','7','.','0','.','0','.','1','\0'};
     server = gethostbyname(ipadd);
     if (server == NULL) {
         fprintf(stderr,"ERROR, no such host\n");
         exit(0);
+        writeinlog("Consumer : No such host is found");
     }
     bzero((char *) &serv_addr, sizeof(serv_addr));
+    writeinlog("Consumer : Buffer values in socket are set to zero");
     serv_addr.sin_family = AF_INET;
     bcopy((char *)server->h_addr, (char *)&serv_addr.sin_addr.s_addr,server->h_length);
     serv_addr.sin_port = htons(portno);
     if (connect(sockfd,(struct sockaddr *)&serv_addr,sizeof(serv_addr)) < 0){
       error("ERROR connecting",sockfd);
+      writeinlog("Consumer : error in connecting ");
     }
+    writeinlog("Consumer : connected succuessfully ");
     char buffer[]={'H','E','L','L','O','\0'};
     n = write(sockfd,buffer,strlen(buffer));
     if (n < 0){
       error("ERROR writing to socket",sockfd);
+      writeinlog("Consumer : error in writing to socket "); 
     }
+    writeinlog("Consumer : written to the socket successfully "); 
     for (int i = 0; i < Bsize; i=i+65536){
       int byt = read(sockfd, &B[i], 65536);
      }
@@ -159,41 +178,51 @@ int main(int argc, char * argv[]){
     printf("I recived %ld bytes.\n",strlen(B));
     if (n < 0){
       error("ERROR reading from socket",sockfd);
+      writeinlog("Consumer : Error in reading from the socket "); 
     }
+    writeinlog("Consumer : Read from the socket successfully "); 
     shutdown(sockfd, SHUT_RDWR);
     close(sockfd);
+    writeinlog("Consumer : socket closed");
   }
 
 
   else if(choice == 4){
-    //shared memory
+    //shared memory choice
+    writeinlog("Consumer : The user chose shared memory");
     int shared_seg_size = CDsize;
     char *ptr;
-    int j;
     int shmfd = shm_open(SHMOBJ_PATH, O_RDONLY, 0666); //open the shared memory as read only
     //dont need to resize it beacuse the writer did
     ptr = mmap(NULL, shared_seg_size, PROT_READ, MAP_SHARED, shmfd, 0);  //mapping of the memory segment referenced by the file descriptor returned by shm_open()
-    //copening the semphore that the producer created
+    //opening the semphore that the producer created
     sem_t * sem_id1 = sem_open(SEM_PATH_1, 0);
     sem_t * sem_id2 = sem_open(SEM_PATH_2, 0);
     sem_t* mutexCircBuffer = sem_open(SEM_PATH_3, O_CREAT | O_RDWR, 0666,1);
+    writeinlog("Consumer : Semaphores in shared memory are opened");
+
 
 
     CD=B;
     while(strlen(B)<Bsize){
       // wait prod
       sem_wait(sem_id2); //wait for the signal form the other
+      writeinlog("Consumer : waiting for the signal from producer");
+
       sem_wait(mutexCircBuffer);
 
       memcpy (CD, ptr, shared_seg_size);
       CD= CD+shared_seg_size;
       printf("I am reading...\n");
+      writeinlog("Consumer : reading from producer in process");
+
 
       sem_post(mutexCircBuffer);
       sem_post(sem_id1); //send signal after reading
     }
     writetime();
     printf("I recived %ld bytes.\n",strlen(B));
+    writeinlog("Consumer : Recived from producer");
 
     shm_unlink(SHMOBJ_PATH);
     sem_close(sem_id1);
@@ -207,8 +236,11 @@ int main(int argc, char * argv[]){
   else{
     printf("Fatal error in choice\n");
     exit(1);
+    writeinlog("Consumer : error in chosing method");
   }
   double speeds = (Bsize/(timediff()/1000000)/1048576);
   printf("The speed is: %0.2f Mb/sec\n",speeds);
+  writeinlog("Consumer : The speed is meausred");
+
   return(0);
 }

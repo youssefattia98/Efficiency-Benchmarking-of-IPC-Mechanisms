@@ -23,12 +23,15 @@ run with: ./prod 104857600 102400 3 4 5
 #include <ctype.h>
 #include <sys/time.h> 
 
+// Defining semaphores are used in shared memory //
 #define SHMOBJ_PATH "/shm_AOS"
 #define SEM_PATH_1 "/sem_AOS_1"
 #define SEM_PATH_2 "/sem_AOS_2"
 #define SEM_PATH_3 "/sem_AOS_3"
 int Asize, CDsize, choice =0;
 
+
+// Function to write in  logfile in with every action in the code //
 void writeinlog(char *str){
   /*
   Function to write in log file, how to use it:
@@ -41,6 +44,9 @@ void writeinlog(char *str){
   fprintf(writeinlog, "%s",str);//write to file
   fclose(writeinlog);//close file
 }
+
+
+// Function Caculate the time of each transfering  method
 void writetime(){
 
   FILE *wrtietimefd;
@@ -88,27 +94,35 @@ int main(int argc, char * argv[]){
   printf("I am the producer, will send:%ld bytes.\n",strlen(A));
 
   if(choice == 1){
-    //unnamed pipes
+    //unnamed pipes choice
+    writeinlog("Producer : The user chose Unnamed pipes choice");
     int pfd[2];
     pfd[0] = atoi(argv[4]);
     pfd[1] = atoi(argv[5]);
     close(pfd[0]); //close the read side
     writetime();
     int bytes = write(pfd[1],A,strlen(A)); //write to pipe
+    writeinlog("Producer : written in the unnamed pipe");
+
   }
 
   else if (choice == 2){
-    //named pipes
+    //named pipes choice 
+    writeinlog("Producer : The user chose named pipes choice");
     char * namedpipe = "/tmp/namedpipe"; 
     mkfifo(namedpipe, 0666); //create namepipe
+    writeinlog("Producer : named pipes is created ");
     int fd = open(namedpipe, O_WRONLY); //open fifo as write only
+    writeinlog("Producer : fifo is opened as write only");
     writetime();
     write(fd, A, strlen(A)); //write in fifo
+    writeinlog("Producer : written in the fifo");
   }
 
 
   else if (choice == 3){
-    //sockets
+    //sockets choice
+    writeinlog("Producer : The user chose Sockets");
     int sockfd, newsockfd, portno, clilen;
     char buffer[256];
     struct sockaddr_in serv_addr, cli_addr;
@@ -116,38 +130,54 @@ int main(int argc, char * argv[]){
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0){
       error("ERROR opening socket",sockfd);
+      writeinlog("Producer : error opening sockets");
     }
+    writeinlog("Producer : opening sockets successfully");
     bzero((char *) &serv_addr, sizeof(serv_addr));
+    writeinlog("Producer : Buffer values in socket are set to zero");
     portno = 8000;
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_addr.s_addr = INADDR_ANY;
     serv_addr.sin_port = htons(portno);
     if (bind(sockfd, (struct sockaddr *) &serv_addr,sizeof(serv_addr)) < 0){
       error("ERROR on binding",sockfd);
+      writeinlog("Producer : error binding a socket to an address");
+
     }
+    writeinlog("Producer : Binding The socket to an address");
     listen(sockfd,5);
+    writeinlog("Producer : The process is allowed to listen on the socket for connections");
     clilen = sizeof(cli_addr);
     newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
     if (newsockfd < 0){
       error("ERROR on accept",newsockfd);
     }
+    writeinlog("Producer : the process is blocked until a client connects to the server");
     bzero(buffer,256);
     n = read(newsockfd,buffer,255);
     if (n < 0){
       error("ERROR reading from socket",newsockfd);
+      writeinlog("Producer : ERROR reading from socket");
     }
+    writeinlog("Producer : reading from socket successfully");
     writetime();
     n = write(newsockfd,A,strlen(A));
     if (n < 0){
       error("ERROR writing to socket",newsockfd);
+      writeinlog("Producer : ERROR writing from socket");
     }
+    writeinlog("Producer : writing from socket sucessfully");
+
     shutdown(newsockfd, SHUT_RDWR);
     close(newsockfd); 
+    writeinlog("Producer : socket closed");
+
   }
 
 
   else if(choice == 4){
-    //shared memory
+    //shared memory choice
+    writeinlog("Producer : The user chose shared memory");
     char * ptr;
     int shared_seg_size = CDsize; //int having size of the shared memoery 
     int shmfd = shm_open(SHMOBJ_PATH, O_CREAT | O_RDWR, 0666); //open and create the shared memory as read and write
@@ -160,6 +190,8 @@ int main(int argc, char * argv[]){
     //intlaizes these two sempahores
     sem_init(sem_id1, 1, 1); // initialized to 1
     sem_init(sem_id2, 1, 0); // initialized to 0
+    writeinlog("Producer : Semaphores in shared memory are created and initialized ");
+
 
     writetime();
     CD=A;
@@ -169,10 +201,12 @@ int main(int argc, char * argv[]){
 
       memcpy (ptr, CD, shared_seg_size);
       CD= CD+shared_seg_size;
-      printf("i am at ittraion: %d\n",(i/shared_seg_size));
+      printf("i am at iteraion: %d\n",(i/shared_seg_size));
 
       sem_post(mutexCircBuffer);
       sem_post(sem_id2);//send a signal to the consumer
+      writeinlog("Producer : The signal sent to the consumer");
+
     }
 
     shm_unlink(SHMOBJ_PATH);
@@ -188,6 +222,8 @@ int main(int argc, char * argv[]){
   else{
     printf("Fatal error in choice\n");
     exit(1);
+    writeinlog("Producer : error in chosing method");
+
   }
   
   return(0);

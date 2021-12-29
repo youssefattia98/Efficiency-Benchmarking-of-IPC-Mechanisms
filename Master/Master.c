@@ -24,12 +24,10 @@ compile with: gcc Master.c -o master -lm
 
 
 
-float DELAY=30000;
+float DELAY=10000;
 void textSpawn(char* string, float delay){
   char str_length=strlen(string);
-  //printf("you should print %s", string);
   for(int i=0; string[i]!= '\0'; i++){
-    //printf("you should print %d", string[i]);
       printf("%c",string[i]);
       fflush(stdout);
       usleep(delay);
@@ -38,10 +36,7 @@ void textSpawn(char* string, float delay){
 
 void writeinlog(char *str){
   /*
-  Function to write in log file, how to use it:
-  writeinlog("write ur comment here");
-  or
-  writeinlog("%s\n", stingtobewritten);
+  Function to write in log file.
   */
   FILE *writeinlog;
   writeinlog = fopen("./logfile","a");
@@ -50,21 +45,34 @@ void writeinlog(char *str){
 }
 
 int main(){
-  char ABsizestr[5];
-  char CBsizestr[5];
-  char choicestr[5];
   char senstr1[50];
   char senstr2[50];
   char senstr3[50];
   char senstr4[50];
   char senstr5[50];
   int pfd[2];
+
+  int ABsizeMB = 200;
+  int CBsizeKB = 20;
+  int choice = 10;
   
   textSpawn("Hello this is the master process of a game comparison between speed of data trasmission.\n",DELAY);
-  textSpawn("Fist of all choose the amout of data to trasfer from 0 to 100 MB.Input your choice:",DELAY);
-  scanf("%s",ABsizestr);
+  textSpawn("First of all choose the amout of data to trasfer from 1 to 100 MB.Input your choice:",DELAY);
+  scanf("%d",&ABsizeMB);
+  while (!( (1<=ABsizeMB) && (ABsizeMB<=100) ))  {
+    textSpawn("Wrong input please enter a number between 0 to 100 MB \n",DELAY);
+    scanf("%d",&ABsizeMB);
+  }
+  writeinlog("User entered the data to be transfered  ");
+
   textSpawn("Secondly choose the size of buffer in KB.\nYou can choose between 1 and 10 KB of data. Input your choice:",DELAY);
-  scanf("%s",CBsizestr);
+  scanf("%d",&CBsizeKB);
+  while (!( (1<=CBsizeKB) && (CBsizeKB<=10) ))  {
+    textSpawn("Wrong input please enter a number between 0 to 10 KB \n",DELAY);
+    scanf("%d",&CBsizeKB);
+  }
+  writeinlog("User entered the buffer size   ");
+
   textSpawn("Interesting! Now the type of IPC you want to test:\n",DELAY);
   printf("press 1: Unnamed Pipes \n");
   usleep(DELAY*4);
@@ -74,46 +82,42 @@ int main(){
   usleep(DELAY*4);
   printf("press 4: Shared Memory\n");
   textSpawn("Any other input will not be accepted. Input now:", DELAY);
-  scanf("%s",choicestr);
+  scanf("%d",&choice);
+  while (!( (0<choice) && (choice<=4) ))  {
+    textSpawn("Wrong input please enter a number between 0 to 4 \n",DELAY);
+    scanf("%d",&choice);
+  }
+    writeinlog("User entered the choice number  ");
+
   
-  int ABsizeMB = atoi(ABsizestr);
-  int CBsizeKB = atoi(CBsizestr);
-  int choice = atoi(choicestr);
+  
   int ABsizebytes = 1048576 *ABsizeMB;
   long int CBsizebytes = pow((double)2,(double)CBsizeKB);
-  //printf("%d\n",ABsizebytes);
-  //printf("%ld\n",CBsizebytes);
-  //printf("%d\n",choice);
+  
 
   pipe(pfd);
   int pid =fork();
   if(pid==0){
     //first child to run the prdoucer
+    writeinlog("producer run");
     sprintf(senstr1, "%d", ABsizebytes);//from int to sting
     sprintf(senstr2, "%ld", CBsizebytes);//from int to sting
     sprintf(senstr3, "%d", choice);//from int to sting
     sprintf(senstr4, "%d", pfd[0]);
     sprintf(senstr5, "%d", pfd[1]);
-    //with konsole
-    //char * arg_list_1[] = { "/usr/bin/konsole","-e", "./prod",(char*)senstr1,(char*)senstr2,(char*)senstr3,(char*)senstr4,(char*)senstr5,(char*)NULL };
-    //execvp ("/usr/bin/konsole", arg_list_1);
-    //without consle
     char * arg_list_1[] = {"./prod",(char*)senstr1,(char*)senstr2,(char*)senstr3,(char*)senstr4,(char*)senstr5,(char*)NULL };
     execvp(arg_list_1[0],arg_list_1);
 
   }
 
   else{
-      //the faster should run the consumer
+      //the father should run the consumer
+      writeinlog("Consumer run");
       sprintf(senstr1, "%d", ABsizebytes);//from int to sting
       sprintf(senstr2, "%ld", CBsizebytes);//from int to sting
       sprintf(senstr3, "%d", choice);//from int to sting
       sprintf(senstr4, "%d", pfd[0]);
       sprintf(senstr5, "%d", pfd[1]);
-      //with konsole
-      //char * arg_list_2[] = { "/usr/bin/konsole","-e", "./prod",(char*)senstr1,(char*)senstr2,(char*)senstr3,(char*)senstr4,(char*)senstr5,(char*)NULL };
-      //execvp ("/usr/bin/konsole", arg_list_2);
-      //without consle
       char * arg_list_2[] = {"./cons",(char*)senstr1,(char*)senstr2,(char*)senstr3,(char*)senstr4,(char*)senstr5,(char*)NULL };
       sleep(1);
       execvp(arg_list_2[0],arg_list_2);
