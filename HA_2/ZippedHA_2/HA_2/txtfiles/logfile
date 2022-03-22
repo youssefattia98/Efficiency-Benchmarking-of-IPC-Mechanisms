@@ -1,0 +1,3161 @@
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Consumer : The user chose named pipes choice
+Consumer : named pipes is created
+ Producer : The user chose named pipes choice
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose Unnamed pipes choice
+consumer : The user chose Unnamed pipes choice
+Producer : written in the unnamed pipe
+consumer : recived in the unnamed pipe
+Consumer : The speed is meausred
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose named pipes choice
+Consumer : The user chose named pipes choice
+Consumer : named pipes is created
+ User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose Sockets
+Producer : opening sockets successfully
+Producer : Buffer values in socket are set to zero
+Producer : Binding The socket to an address
+Producer : The process is allowed to listen on the socket for connections
+Consumer : The user chose Sockets
+Consumer : opening sockets successfully
+Consumer : Buffer values in socket are set to zero
+Consumer : connected succuessfully 
+Producer : the process is blocked until a client connects to the server
+Producer : reading from socket successfully
+Consumer : written to the socket successfully
+ Producer : writing from socket sucessfully
+Producer : socket closed
+Consumer : Read from the socket successfully 
+Consumer : socket closed
+Consumer : The speed is meausred
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose shared memory
+Producer : Semaphores in shared memory are created and initialized 
+Producer : The signal sent to the consumer
+Consumer : The user chose shared memory
+Consumer : Semaphores in shared memory are opened
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : waiting for the signal from producer
+Producer : The signal sent to the consumer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Producer : The signal sent to the consumer
+Consumer : waiting for the signal from producer
+Consumer : reading from producer in process
+Consumer : Recived from producer
+Consumer : The speed is meausred
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose named pipes choice
+Producer : named pipes is created 
+Consumer : The user chose named pipes choice
+Consumer : named pipes is created
+ Consumer : fifo is opened as read only
+Producer : fifo is opened as write only
+Producer : written in the fifo
+Consumer : recived from the fifo
+Consumer : The named pipe is closed and deleted 
+Consumer : The speed is meausred
+User entered the data to be transfered
+  User entered the buffer size
+   User entered the choice number 
+ Consumer run
+producer run
+Producer : The user chose named pipes choice
+Producer : named pipes is created 
+Consumer : The user chose named pipes choice
+Consumer : named pipes is created
+ Consumer : fifo is opened as read only
+Producer : fifo is opened as write only
+Producer : written in the fifo
+Consumer : recived from the fifo
+Consumer : The named pipe is closed and deleted 
+Consumer : The speed is meausred
