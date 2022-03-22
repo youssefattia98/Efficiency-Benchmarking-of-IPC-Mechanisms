@@ -28,4 +28,8 @@ While:
 
 Results
 -------
-The final result is a quite fun way to compare the different IPC and to verify that the fastest one is 
+The final result is a quite fun way to compare the different IPC and here you can find the sorting in order of efficiency:
+* named pipes
+* unnamed pipes
+* sockets 
+* shared memory
