@@ -1,4 +1,4 @@
-# IPC communication
+# Efficiency Benchmarking of IPC Mechanisms
 
 Description
 -----------
