@@ -2,7 +2,7 @@
 
 Description
 -----------
-This is a Hoist Control System implemented as a multi-process application in C following POSIX (Portable Operating System Interface) standards. It utilizes various inter-process communication methods including named and unnamed pipes, alongside a watchdog timer mechanism for resilience. The system operates in a Linux environment. The project is a collection of 4 concurrent programs whose aim is to measure the speed of data transferring between a producer and a consumer using 4 different IPC transfer primitives, evaluating then their efficiency. 
+The project is a collection of 4 concurrent programs whose aim is to measure the speed of data transferring between a producer and a consumer using 4 different IPC transfer primitives, evaluating then their efficiency. 
 The four programs may be run by one interface after an interactive choice.
 
 How the communication works
